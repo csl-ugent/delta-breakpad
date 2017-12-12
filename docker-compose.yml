@@ -1,0 +1,13 @@
+version: '3'
+services:
+  main:
+    build:
+      context: .
+    security_opt:
+      - seccomp=unconfined # Allow gdb debugging
+    volumes:
+      - "data:/opt/data"
+      - "root:/root"
+volumes:
+  data:
+  root:

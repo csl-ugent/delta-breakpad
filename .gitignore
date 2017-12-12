@@ -1,0 +1,11 @@
+modules/breakpad
+tags
+*.sublime*
+*swp
+*~
+*.json
+*.o
+*.i
+*.s
+*.pyc
+*.vim

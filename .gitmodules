@@ -1,0 +1,12 @@
+[submodule "llvm"]
+	path = modules/llvm
+	url = https://github.com/csl-ugent/llvm.git
+[submodule "depot_tools"]
+	path = modules/depot_tools
+	url = https://chromium.googlesource.com/chromium/tools/depot_tools.git
+[submodule "scripts"]
+	path = modules/scripts
+	url = https://github.com/csl-ugent/dbp-scripts.git
+[submodule "regression"]
+	path = modules/regression
+	url = https://github.com/csl-ugent/diabloregression.git
